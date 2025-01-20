@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/Mouse" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="zw8BYCnxZQ.Mouse" package="zw8BYCnxZQ" required_version="4.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Mouse</name>
+    
+    <tizen:privilege name="http://tizen.org/privilege/sensor"/>
+    <tizen:privilege name="http://tizen.org/feature/sensor.accelerometer"/>
+    <tizen:privilege name="http://tizen.org/privilege/gyroscope"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    
+   
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth"/>
+	<tizen:privilege name="http://tizen.org/privilege/bluetooth.admin"/>
+	<tizen:privilege name="http://tizen.org/privilege/bluetooth.gatt.client"/>
+	<tizen:privilege name="http://tizen.org/privilege/bluetooth.socket"/>
+	<tizen:privilege name="http://tizen.org/privilege/bluetooth.spp" />
+	<tizen:privilege name="http://tizen.org/privilege/bluetooth.adapter" />
+	
+    
+	<tizen:privilege name="http://tizen.org/privilege/recorder"/>
+	<tizen:privilege name="http://tizen.org/privilege/systeminfo"/>
+	<tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
