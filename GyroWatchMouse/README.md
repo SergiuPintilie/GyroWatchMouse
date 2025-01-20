@@ -1,1 +1,1 @@
-# CHS_GyroWatchMouse
+# GyroWatchMouse
